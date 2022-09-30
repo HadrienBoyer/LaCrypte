@@ -12,7 +12,9 @@
     "build:minify": "uglifyjs client/public/js/lacrypte.js --source-map -o client/public/js/lacrypte.min.js",
     "build:cleanup": "(rm client/public/js/lacrypte.js || del client\\public\\js\\lacrypte.js)",
     "test:lint": "eslint ./client/source/**/*.js ./server/*.js",
-    "start": "node ./server/server.js"
+    "start": "node ./server/server.js",
+    "ionic:build": "npm run build",
+    "ionic:serve": "npm run start"
   },
   "keywords": [
     "lacrypte",
@@ -39,8 +41,13 @@
   },
   "bin": "./server/server.js",
   "dependencies": {
-    "serve": "^13.0.2",
-    "socket.io": "^4.3.1"
+    "@capacitor/app": "4.0.1",
+    "@capacitor/core": "^4.3.0",
+    "@capacitor/haptics": "4.0.1",
+    "@capacitor/keyboard": "4.0.1",
+    "@capacitor/status-bar": "4.0.1",
+    "serve": "^14.0.1",
+    "socket.io": "^4.5.2"
   },
   "os": [
     "darwin",
@@ -48,11 +55,12 @@
     "win32"
   ],
   "devDependencies": {
-    "@rollup/plugin-commonjs": "^21.0.1",
-    "@rollup/plugin-node-resolve": "^13.0.6",
+    "@capacitor/cli": "^4.3.0",
+    "@rollup/plugin-commonjs": "^22.0.2",
+    "@rollup/plugin-node-resolve": "^14.1.0",
     "crypto-js": "^4.1.1",
-    "eslint": "^8.1.0",
-    "rollup": "^2.59.0",
-    "uglify-js": "^3.14.3"
+    "eslint": "^8.24.0",
+    "rollup": "^2.79.1",
+    "uglify-js": "^3.17.2"
   }
 }

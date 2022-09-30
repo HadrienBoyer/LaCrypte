@@ -1,0 +1,7 @@
+{
+  "name": "lacrypte",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "custom"
+}

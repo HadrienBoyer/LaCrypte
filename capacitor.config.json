@@ -1,0 +1,6 @@
+{
+  "appId": "com.lacrypte.app",
+  "appName": "lacrypte",
+  "webDir": "client/public",
+  "bundledWebRuntime": false
+}

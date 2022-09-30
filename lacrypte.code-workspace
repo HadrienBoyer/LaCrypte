@@ -5,7 +5,7 @@
 		}
 	],
 	"settings": {
-		"ionic.externalAddress": false
+		"ionic.externalAddress": true
 	},
 	"launch": {
 		"version": "0.2.0",
