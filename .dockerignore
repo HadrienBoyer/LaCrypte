@@ -1,0 +1,16 @@
+# Node.js/npm stuff
+node_modules
+npm-debug.log
+
+# LaCrypte documentation
+docs
+
+# Git stuff
+.git
+.gitignore
+
+# Travis CI configuration
+.travis.yml
+
+# Heroku metadata
+app.json

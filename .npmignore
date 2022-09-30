@@ -1,0 +1,18 @@
+# Docker stuff
+.dockerignore
+Dockerfile
+docker-entrypoint.sh
+
+# Heroku stuff
+app.json
+
+# Source code
+client/source/
+
+# Dev config
+rollup.config.js
+.eslintignore
+.eslintrc.json
+
+# Github stuff
+.github

@@ -1,0 +1,17 @@
+{
+  "name": "LaCrypte",
+  "description": "Secure web chat. E2E encryption.",
+  "keywords": [
+    "crypto-js",
+    "privacy",
+    "javascript",
+    "LaCrypte",
+    "la-crypte",
+    "crypte",
+    "encryption",
+    "encrypted",
+    "secure",
+    "e2e-e"
+  ],
+  "repository": "https://github.com/HadrienBoyer/LaCrypte"
+}
