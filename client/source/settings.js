@@ -15,7 +15,7 @@ export default {
 		'░          ░░   ░ ▒ ▒ ░░  ░░         ░        ░   ▒     ░ ░   ░ ░░ ░  \n' +
 		'░ ░         ░     ░ ░                             ░  ░    ░  ░░  ░    \n' +
 		'░                 ░ ░                                                 \n' +
-		'                                  https://github.com/hexagon/lacrypte \n' +
+		'                                  https://github.com/HadrienBoyer/lacrypte \n' +
 		'                                                                      \n' +
 		' Tip of the day: /help                                                \n' +
 		'----------------------------------------------------------------------' +

@@ -25,17 +25,17 @@
     "privacy",
     "e2ee"
   ],
-  "author": "Hexagon <Hexagon@GitHub>",
+  "author": "HadrienBoyer <HadrienBoyer@GitHub>",
   "contributors": [
     {
-      "name": "Pehr Boman",
-      "email": "unkelpehr@gmail.com"
+      "name": "HadrienBoyer",
+      "email": "hello@hadrien.co"
     }
   ],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/Hexagon/lacrypte.git"
+    "url": "git://github.com/HadrienBoyer/LaCrypte.git"
   },
   "bin": "./server/server.js",
   "dependencies": {

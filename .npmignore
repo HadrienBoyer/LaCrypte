@@ -16,3 +16,5 @@ rollup.config.js
 
 # Github stuff
 .github
+
+.DS_Store

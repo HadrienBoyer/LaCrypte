@@ -90,6 +90,7 @@ io.on('connection', function(socket) {
 			} else {
 
 				// Message size is out of bounds, complain
+				// eslint-disable-next-line no-console
 				console.error('Message size is out of bounds');
 				socket.emit('message:server', {msg:'command_failed'} );
 			}

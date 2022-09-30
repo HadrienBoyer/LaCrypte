@@ -70,7 +70,7 @@ Then issue the following to start the app
 LaCrypte
 ```
 
-Browse to ```http://localhost:8080```
+Browse to ```http://localhost:8000```
 
 Done!
 
@@ -132,6 +132,6 @@ Start server
 npm run start
 ```
 
-Browse to ```http://localhost:8080```
+Browse to ```http://localhost:8000```
 
 To work on the JavaScript, edit the code in ```client/source/```. To test the changes, first run ```npm run build``` to lint, build and minify the code. Then restart the server.

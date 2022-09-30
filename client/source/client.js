@@ -20,11 +20,11 @@
 import $ from './$.js';
 
 export default function (mediator, settings, templates) {
-	var 
+	var
 		// Private properties
 		nick,
 		key,
-		
+
 		setKey = function(payload) {
 			/*if (!host) {
 				return post('error', templates.messages.key_no_host);

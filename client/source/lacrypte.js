@@ -9,7 +9,7 @@ import cons from './console.js';
 import room from './room.js';
 import sounds from './sounds.js';
 
-// Inititalize modules
+// Initialize modules
 let wind = win(mediator);
 cons(mediator, settings, templates,sounds);
 notifications(mediator, settings, wind);
@@ -38,23 +38,23 @@ mediator
 	})
 
 	// Help console and host keep track of current states
-	.on('room:changed', function(room) { 
+	.on('room:changed', function(room) {
 		mediator
 			.emit('console:param', {
 				room: room
 			})
 			.emit('host:param', {
 				room: room
-			}); 
+			});
 	})
 
-	.on('nick:changed', function(nick) { 
+	.on('nick:changed', function(nick) {
 		mediator.emit('console:param', {
 			nick: nick
-		}); 
+		});
 	})
 
-	.on('key:changed', function(key) { 
+	.on('key:changed', function(key) {
 		mediator
 			.emit('console:param', {
 				key: key
