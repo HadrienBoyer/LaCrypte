@@ -30,3 +30,5 @@ docs/Thumbs.db
 
 # Vim temp files
 *.swp
+
+.DS_Store
