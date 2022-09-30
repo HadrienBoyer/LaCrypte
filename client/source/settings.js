@@ -4,9 +4,13 @@ export default {
 
 	ttl: 600000,
 
-	motd: `<pre>nLA CRYPTE v.0.0.1
+	motd: `<pre>
+	<code>
+	<h3>LA CRYPTE v.0.0.1</h3>
 	https://github.com/HadrienBoyer/LaCrypte \n
-	Tip of the day: /help                                                ----------------------------------------------------------------------</pre>`,
+	Tip of the day: /help\n                                           ----------------------------------------------------------------------
+	</code>
+	</pre>`,
 
 	nick: {
 		maxLen: 20,
