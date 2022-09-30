@@ -2,7 +2,7 @@
 
 const
 	handler = require('serve-handler'),
-	port = process.env.PORT || 8080,
+	port = process.env.PORT || 8000,
 	path = require('path');
 
 let
@@ -90,7 +90,7 @@ io.on('connection', function(socket) {
 			} else {
 
 				// Message size is out of bounds, complain
-				console.error("Message size is out of bounds");
+				console.error('Message size is out of bounds');
 				socket.emit('message:server', {msg:'command_failed'} );
 			}
 
