@@ -6,9 +6,8 @@ export default {
 
 	motd: `<pre>
 	<code>
-	<h3>LA CRYPTE v.0.0.1</h3>
-	https://github.com/HadrienBoyer/LaCrypte \n
-	Tip of the day: /help\n                                           ----------------------------------------------------------------------
+	<h2>LA CRYPTE v.0.0.1</h2> - https://github.com/HadrienBoyer/LaCrypte \n\n
+	• Tip of the day: /help\n                                           \n----------------------------------------------------------------------
 	</code>
 	</pre>`,
 

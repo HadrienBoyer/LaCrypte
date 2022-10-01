@@ -43,6 +43,7 @@
   "dependencies": {
     "@capacitor/app": "4.0.1",
     "@capacitor/core": "^4.3.0",
+    "@capacitor/dialog": "^4.0.1",
     "@capacitor/haptics": "4.0.1",
     "@capacitor/keyboard": "4.0.1",
     "@capacitor/status-bar": "4.0.1",
@@ -58,6 +59,7 @@
     "@capacitor/cli": "^4.3.0",
     "@rollup/plugin-commonjs": "^22.0.2",
     "@rollup/plugin-node-resolve": "^14.1.0",
+    "cordova-res": "0.15.4",
     "crypto-js": "^4.1.1",
     "eslint": "^8.24.0",
     "rollup": "^2.79.1",

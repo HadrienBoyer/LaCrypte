@@ -20,7 +20,7 @@
 import $ from './$.js';
 
 export default function (mediator, settings, templates) {
-	var
+	let
 		// Private properties
 		nick,
 		key,
@@ -41,7 +41,7 @@ export default function (mediator, settings, templates) {
 			key = payload;
 
 			// Keep other modules informed
-			mediator.emit('key:changed',key);
+			mediator.emit('key:changed', key);
 
 			// Inform that the key has been set
 			return mediator.emit('console:info', templates.messages.key_ok );
@@ -69,7 +69,7 @@ export default function (mediator, settings, templates) {
 			mediator.emit('nick:changed', nick);
 
 			// Inform that the nick has been set
-			mediator.emit('console:info', $.template(templates.messages.nick_set, { nick: $.escapeHtml(nick)}));
+			mediator.emit('console:info', $.template(templates.messages.nick_set, { nick: $.escapeHtml(nick)} ));
 
 		},
 
