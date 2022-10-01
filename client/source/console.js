@@ -21,7 +21,7 @@ import $ from './$.js';
 
 export default function(mediator,settings,templates, sounds) {
 
-	var // Collection of DOM components
+	let // Collection of DOM components
 		components = {
 			chat: 	$('#chat'),
 			input: 	$('#input'),
